@@ -48,10 +48,10 @@ GitHub discovery and agent selection are separate steps. The preview [`gh skill 
 
 ```bash
 gh skill search "iphone duo"
-gh skill install OWNER/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
+gh skill install NanWuIT/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
 ```
 
-Replace `OWNER` with the GitHub owner after the repository is published. This checkout has no Git remote, so the canonical owner cannot be derived safely yet.
+The canonical GitHub repository is `NanWuIT/adapt-ui-for-iphone-duo`.
 
 From an existing local checkout, GitHub CLI can install the standard skill directory directly:
 

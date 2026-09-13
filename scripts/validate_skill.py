@@ -313,7 +313,7 @@ def validate_readme_translations(root: Path) -> None:
         "README.md / README.*.md",
         "skills/adapt-ui-for-iphone-duo/SKILL.md",
         'gh skill search "iphone duo"',
-        "gh skill install OWNER/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user",
+        "gh skill install NanWuIT/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user",
         "gh skill install . adapt-ui-for-iphone-duo --from-local --agent codex --scope user",
         "gh skill publish --dry-run",
         'ln -s "$PWD/skills/adapt-ui-for-iphone-duo" ~/.agents/skills/adapt-ui-for-iphone-duo',

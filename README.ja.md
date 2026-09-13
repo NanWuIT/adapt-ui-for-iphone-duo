@@ -48,10 +48,10 @@ GitHub 上での検出とエージェントによる選択は別の段階です�
 
 ```bash
 gh skill search "iphone duo"
-gh skill install OWNER/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
+gh skill install NanWuIT/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
 ```
 
-リポジトリの公開後、`OWNER` を GitHub の所有者名に置き換えてください。このチェックアウトには Git リモートがないため、現時点では正式な所有者名を安全に特定できません。
+正式な GitHub リポジトリは `NanWuIT/adapt-ui-for-iphone-duo` です。
 
 既存のローカルチェックアウトからは、GitHub CLI で標準のスキルディレクトリを直接インストールできます。
 

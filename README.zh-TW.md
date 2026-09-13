@@ -48,10 +48,10 @@ GitHub 探索與代理選擇是兩個獨立步驟。預覽版 [`gh skill search`
 
 ```bash
 gh skill search "iphone duo"
-gh skill install OWNER/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
+gh skill install NanWuIT/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
 ```
 
-儲存庫發布後，請以 GitHub 擁有者名稱取代 `OWNER`。目前這份工作副本未設定 Git remote，因此無法可靠地推導正式擁有者。
+GitHub 正式儲存庫為 `NanWuIT/adapt-ui-for-iphone-duo`。
 
 若已有本機工作副本，GitHub CLI 可以直接安裝符合標準的 skill 目錄：
 

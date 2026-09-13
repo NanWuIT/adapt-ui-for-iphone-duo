@@ -48,10 +48,10 @@ GitHub 发现与智能体选择是两个独立步骤。预览版 [`gh skill sear
 
 ```bash
 gh skill search "iphone duo"
-gh skill install OWNER/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
+gh skill install NanWuIT/adapt-ui-for-iphone-duo adapt-ui-for-iphone-duo --agent codex --scope user
 ```
 
-请在仓库发布后将 `OWNER` 替换为 GitHub 所有者。当前检出副本未配置 Git 远程仓库，因此暂时无法可靠推导规范的所有者名称。
+GitHub 规范仓库为 `NanWuIT/adapt-ui-for-iphone-duo`。
 
 如果已经在本地检出本仓库，GitHub CLI 可以直接安装符合标准的 skill 目录：
 
