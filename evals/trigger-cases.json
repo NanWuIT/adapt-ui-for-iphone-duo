@@ -15,10 +15,10 @@
       "rationale": "Names the target device and a native iOS layout task."
     },
     {
-      "id": "discovery-alias",
+      "id": "foldable-iphone-phrase",
       "should_trigger": true,
-      "prompt": "Will our player UI work when an iPhone 18 Duo is half open?",
-      "rationale": "Uses a common discovery alias in a foldable UI context."
+      "prompt": "Will our player UI work when a foldable iPhone is half open?",
+      "rationale": "Names a foldable iPhone and a partial-fold UI context."
     },
     {
       "id": "book-pose",

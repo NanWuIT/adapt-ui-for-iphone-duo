@@ -3,15 +3,6 @@
   "profile_purpose": "Documentation, mockups, and test planning only; never use these values as runtime layout breakpoints.",
   "profile_reviewed_on": "2026-09-11",
   "official_name": "iPhone Duo",
-  "discovery_aliases": [
-    "iPhone 18 Duo",
-    "foldable iPhone"
-  ],
-  "discovery_alias_policy": {
-    "provenance": "Project-defined trigger metadata",
-    "apple_official": false,
-    "search_frequency_verified": false
-  },
   "announcement_date": "2026-09-09",
   "availability_date": "2026-10-23",
   "hardware": {
@@ -93,7 +84,6 @@
     "/official_name": [
       "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
     ],
-    "/discovery_aliases": [],
     "/announcement_date": [
       "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
     ],

@@ -4,7 +4,7 @@ Last reviewed: 2026-09-11.
 
 ## Provenance and toolchain status
 
-Apple announced **iPhone Duo** on 2026-09-09. “iPhone 18 Duo” is a project-defined discovery alias, not an Apple product name or an Apple-supported search-frequency claim.
+Apple announced **iPhone Duo** on 2026-09-09.
 
 iPhone Duo ships with iOS 27.1. Apple has published iOS 27.1 API examples in its iPhone Duo Tech Talks, but, as of this review, says Xcode 27.1 beta is coming later in September; Xcode 27 RC is the current public build. Treat the examples as official preview guidance, not compile-verified signatures, until the 27.1 SDK is available.
 

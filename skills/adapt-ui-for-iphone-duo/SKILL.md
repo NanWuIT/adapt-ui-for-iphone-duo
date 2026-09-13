@@ -1,6 +1,6 @@
 ---
 name: adapt-ui-for-iphone-duo
-description: Adapt iPhone Duo and foldable iPhone UI in native iOS apps built with SwiftUI or UIKit. Use for adaptive UI audits, designs, implementations, or verification involving outer/cover and inner displays, book/tabletop/half-open poses, fold/hinge/crease or camera occlusion avoidance, reserved regions, ArrangementView or UIArrangementViewController, vertical system bars, and state continuity across fold or display transitions. Also use for the discovery alias “iPhone 18 Duo” or explicit $adapt-ui-for-iphone-duo. Do not use for ordinary iPhone/iPad responsiveness, generic resizing or multiwindow work, Android/Surface Duo, web/Flutter/React Native, incidental fold wording, or hardware specs, dimensions, shopping, comparison, news, or rumors.
+description: Adapt iPhone Duo and foldable iPhone UI in native iOS apps built with SwiftUI or UIKit. Use for adaptive UI audits, designs, implementations, or verification involving outer/cover and inner displays, book/tabletop/half-open poses, fold/hinge/crease or camera occlusion avoidance, reserved regions, ArrangementView or UIArrangementViewController, vertical system bars, state continuity across fold or display transitions, or explicit $adapt-ui-for-iphone-duo. Do not use for ordinary iPhone/iPad responsiveness, generic resizing or multiwindow work, Android/Surface Duo, web/Flutter/React Native, incidental fold wording, or hardware specs, dimensions, shopping, comparison, news, or rumors.
 ---
 
 # Adapt UI for iPhone Duo

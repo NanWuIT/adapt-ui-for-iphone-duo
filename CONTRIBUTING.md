@@ -7,7 +7,6 @@ Contributions that improve the accuracy, triggering, implementation workflow, sc
 - Base hardware facts and platform API claims on primary Apple sources.
 - Record a review date and exact source URL for facts that can change.
 - Keep pixels and physical dimensions informational; never promote them to runtime layout breakpoints.
-- Treat `iPhone 18 Duo` as a project-defined discovery alias, not an official product name.
 - Preserve older supported iOS behavior and distinguish runtime availability from compile-SDK availability.
 - Treat scanner matches as review candidates and actively control false positives.
 - Keep `skills/adapt-ui-for-iphone-duo/SKILL.md` procedural and concise; put detailed platform material in its `references/` directory.

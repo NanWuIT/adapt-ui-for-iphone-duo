@@ -8,7 +8,7 @@ The [skill instructions](skills/adapt-ui-for-iphone-duo/SKILL.md) provide a repe
 
 ## Current status
 
-The hardware profile and platform guidance were reviewed on **2026-09-11** against primary Apple sources. Apple’s official product name is **iPhone Duo**. “iPhone 18 Duo” remains only as a project-defined discovery alias so relevant user requests can trigger the skill; it is not presented as an official name.
+The hardware profile and platform guidance were reviewed on **2026-09-11** against primary Apple sources. Apple’s official product name is **iPhone Duo**.
 
 Apple has published iOS 27.1 examples in its iPhone Duo Tech Talks, but Xcode 27.1 beta was still listed as coming later in September at the review date. The repository therefore labels those signatures as preview guidance rather than compile-verified API. The installed SDK always determines what an implementation may compile.
 

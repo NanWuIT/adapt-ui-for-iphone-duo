@@ -24,7 +24,6 @@ REQUIRED_DISCOVERY_TERMS = (
     "SwiftUI",
     "UIKit",
     "adaptive UI",
-    "iPhone 18 Duo",
 )
 README_NAVIGATION = {
     "README.md": (
@@ -215,17 +214,6 @@ def validate_device_profile(root: Path, skill_root: Path) -> None:
     require_iso_date(profile.get("profile_reviewed_on"), "profile_reviewed_on")
     require_iso_date(profile.get("announcement_date"), "announcement_date")
     require_iso_date(profile.get("availability_date"), "availability_date")
-
-    aliases = profile.get("discovery_aliases")
-    if not isinstance(aliases, list) or "iPhone 18 Duo" not in aliases:
-        raise ValidationError(
-            "device profile discovery_aliases must retain 'iPhone 18 Duo'"
-        )
-    alias_policy = require_mapping(
-        profile.get("discovery_alias_policy"), "discovery_alias_policy"
-    )
-    if alias_policy.get("apple_official") is not False:
-        raise ValidationError("the iPhone 18 Duo discovery alias must not be official")
 
     displays = require_mapping(profile.get("displays"), "displays")
     for display_name in ("inner", "outer"):
