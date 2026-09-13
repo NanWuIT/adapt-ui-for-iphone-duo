@@ -119,7 +119,7 @@ scan_tmp_dir="$(mktemp -d "$scan_tmp_root/duo-ui-audit.XXXXXX")" || {
 }
 
 # ShellCheck cannot infer that the EXIT trap invokes this cleanup function.
-# shellcheck disable=SC2317
+# shellcheck disable=SC2317,SC2329
 cleanup() {
   if [[ -n "${scan_tmp_dir:-}" && -d "$scan_tmp_dir" ]]; then
     rm -rf -- "$scan_tmp_dir"
