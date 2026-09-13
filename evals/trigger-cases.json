@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "skill": "adapt-ui-for-iphone-duo",
+  "cases": [
+    {
+      "id": "explicit-invocation",
+      "should_trigger": true,
+      "prompt": "Use $adapt-ui-for-iphone-duo to audit this SwiftUI reader.",
+      "rationale": "The stable invocation identifier is explicit."
+    },
+    {
+      "id": "official-product-name",
+      "should_trigger": true,
+      "prompt": "Adapt our UIKit editor for iPhone Duo cover and inner displays.",
+      "rationale": "Names the target device and a native iOS layout task."
+    },
+    {
+      "id": "discovery-alias",
+      "should_trigger": true,
+      "prompt": "Will our player UI work when an iPhone 18 Duo is half open?",
+      "rationale": "Uses a common discovery alias in a foldable UI context."
+    },
+    {
+      "id": "book-pose",
+      "should_trigger": true,
+      "prompt": "Review this SwiftUI canvas for a foldable iPhone in book pose and keep tools away from the crease.",
+      "rationale": "Describes native iOS fold posture and hinge avoidance."
+    },
+    {
+      "id": "tabletop-pose",
+      "should_trigger": true,
+      "prompt": "Design a tabletop-pose layout for our iOS camera controls without losing capture state.",
+      "rationale": "Describes a foldable iOS posture and continuity requirement."
+    },
+    {
+      "id": "reserved-regions",
+      "should_trigger": true,
+      "prompt": "Implement reservedRegions handling around the hinge and inner camera in this UIKit screen.",
+      "rationale": "Names Duo-specific geometry APIs in a UIKit task."
+    },
+    {
+      "id": "arrangement-view",
+      "should_trigger": true,
+      "prompt": "Should this native iOS preview and controls screen use ArrangementView or NavigationSplitView on a folding display?",
+      "rationale": "Requests selection between Duo adaptation patterns."
+    },
+    {
+      "id": "ipad-only",
+      "should_trigger": false,
+      "prompt": "Make this iPad settings sidebar responsive in Split View.",
+      "rationale": "An iPad-only adaptive layout task is outside this skill's foldable-iPhone scope."
+    },
+    {
+      "id": "ordinary-iphone",
+      "should_trigger": false,
+      "prompt": "Fix the Dynamic Type clipping on our standard iPhone checkout screen.",
+      "rationale": "No Duo or folding-display context is present."
+    },
+    {
+      "id": "android-foldable",
+      "should_trigger": false,
+      "prompt": "Use Jetpack Compose WindowManager to support a Pixel Fold hinge.",
+      "rationale": "Android foldables are outside the native iOS scope."
+    },
+    {
+      "id": "hardware-shopping",
+      "should_trigger": false,
+      "prompt": "Compare the iPhone Duo price and camera with another phone.",
+      "rationale": "This is product research, not interface adaptation."
+    },
+    {
+      "id": "generic-css",
+      "should_trigger": false,
+      "prompt": "Make this website responsive at compact and regular breakpoints.",
+      "rationale": "A generic web layout should not trigger a native iOS skill."
+    },
+    {
+      "id": "generic-ios-external-display",
+      "should_trigger": false,
+      "prompt": "Preserve state while this SwiftUI scene resizes across an external display.",
+      "rationale": "Generic scene continuity without a foldable-iPhone signal is outside scope."
+    },
+    {
+      "id": "ipad-arrangement",
+      "should_trigger": false,
+      "prompt": "Should this iPad inspector use ArrangementView?",
+      "rationale": "An iPad-only container question lacks a Duo or foldable-iPhone layout signal."
+    },
+    {
+      "id": "standard-iphone-camera-occlusion",
+      "should_trigger": false,
+      "prompt": "Move controls around the camera occlusion on a standard iPhone.",
+      "rationale": "Camera occlusion alone is not a foldable-iPhone adaptation task."
+    },
+    {
+      "id": "foldable-web-layout",
+      "should_trigger": false,
+      "prompt": "Adapt our responsive website for a foldable iPhone crease.",
+      "rationale": "The skill is limited to native iOS interfaces."
+    },
+    {
+      "id": "hardware-dimensions",
+      "should_trigger": false,
+      "prompt": "What are iPhone Duo's dimensions and maximum hinge angle?",
+      "rationale": "A hardware-only fact request is not an interface-adaptation task."
+    },
+    {
+      "id": "surface-duo-xamarin",
+      "should_trigger": false,
+      "prompt": "Adapt our Xamarin app for Microsoft Surface Duo.",
+      "rationale": "A non-Apple Duo and non-native iOS stack are outside scope."
+    },
+    {
+      "id": "incidental-book-pose",
+      "should_trigger": false,
+      "prompt": "Add a book-pose icon to this UIKit onboarding screen.",
+      "rationale": "Fold-related wording is incidental and no adaptive-layout work is requested."
+    },
+    {
+      "id": "flutter-iphone-duo",
+      "should_trigger": false,
+      "prompt": "Adapt our Flutter app for iPhone Duo's hinge.",
+      "rationale": "Cross-platform Flutter layout is excluded from this native SwiftUI/UIKit skill."
+    },
+    {
+      "id": "uikit-active-division",
+      "should_trigger": true,
+      "prompt": "Use UIArrangementViewController and query active division regions so this UIKit editor does not straddle the fold.",
+      "rationale": "Combines native UIKit adaptation with supported Duo layout concepts."
+    },
+    {
+      "id": "cover-inner-continuity",
+      "should_trigger": true,
+      "prompt": "Our native iOS reader loses selection when moving from the cover to inner display.",
+      "rationale": "Requests state continuity across foldable-iPhone displays."
+    },
+    {
+      "id": "objective-c-duo",
+      "should_trigger": true,
+      "prompt": "Audit this Objective-C Auto Layout controller for iPhone Duo hinge occlusion.",
+      "rationale": "UIKit Objective-C is native iOS and the request names Duo-specific adaptation."
+    },
+    {
+      "id": "ipad-and-duo",
+      "should_trigger": true,
+      "prompt": "Keep this SwiftUI navigation adaptive on both iPad and iPhone Duo.",
+      "rationale": "iPad support does not exclude a task that also targets iPhone Duo."
+    },
+    {
+      "id": "zh-cn-duo-layout",
+      "should_trigger": true,
+      "prompt": "请审核这个 SwiftUI 阅读器在 iPhone Duo 外屏、内屏和半折叠姿态下的布局。",
+      "rationale": "A Simplified Chinese request names SwiftUI, iPhone Duo displays, and a partial-fold layout task."
+    },
+    {
+      "id": "zh-cn-hardware-only",
+      "should_trigger": false,
+      "prompt": "请比较 iPhone Duo 和其他折叠屏手机的价格、重量与相机。",
+      "rationale": "A Chinese product comparison is hardware and shopping research, not UI adaptation."
+    },
+    {
+      "id": "zh-tw-foldable-book",
+      "should_trigger": true,
+      "prompt": "請讓這個 UIKit 編輯器適配摺疊式 iPhone 的書本姿態，並避開摺痕。",
+      "rationale": "A Traditional Chinese request combines UIKit with a foldable-iPhone pose and crease avoidance."
+    },
+    {
+      "id": "zh-tw-android-foldable",
+      "should_trigger": false,
+      "prompt": "請替 Android 摺疊手機調整 Jetpack Compose 的鉸鏈版面。",
+      "rationale": "The request targets Android and Jetpack Compose rather than native iOS."
+    },
+    {
+      "id": "ja-duo-continuity",
+      "should_trigger": true,
+      "prompt": "iPhone Duo を閉じたり開いたりしても、この SwiftUI プレーヤーの再生状態が失われないようにしてください。",
+      "rationale": "A Japanese request names iPhone Duo, SwiftUI, and state continuity across fold transitions."
+    },
+    {
+      "id": "ja-ordinary-iphone",
+      "should_trigger": false,
+      "prompt": "通常の iPhone で UIKit の文字切れを修正してください。",
+      "rationale": "An ordinary-iPhone UIKit issue has no Duo or foldable-display signal."
+    }
+  ]
+}

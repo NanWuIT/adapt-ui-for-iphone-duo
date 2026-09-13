@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "skill": "adapt-ui-for-iphone-duo",
+  "cases": [
+    {
+      "id": "swiftui-audit",
+      "mode": "audit",
+      "prompt": "Audit a SwiftUI media screen containing a fixed-width player, an overlay transport bar, UIScreen.main.bounds checks, and a queue that becomes a second pane at regular width.",
+      "artifact": "evals/fixtures/swiftui-media",
+      "must_include": [
+        "Prioritized findings with evidence locations",
+        "Scanner matches treated as candidates rather than proven defects",
+        "Navigation-versus-content relationship decision",
+        "Compact, regular, fold, accessibility, and fallback verification cases",
+        "No file edits"
+      ]
+    },
+    {
+      "id": "uikit-implementation-plan",
+      "mode": "design",
+      "prompt": "Recommend how a UIKit mail client can preserve selection while moving between the cover display and a two-pane inner display.",
+      "must_include": [
+        "UISplitViewController for navigation hierarchy",
+        "State ownership independent of the current presentation",
+        "Safe-area and reserved-region handling only where custom layout needs it",
+        "Deployment-target and installed-SDK checks",
+        "No invented SDK symbols"
+      ]
+    },
+    {
+      "id": "preview-sdk-unavailable",
+      "mode": "implementation",
+      "prompt": "Adapt a SwiftUI drawing app for iPhone Duo in an environment whose installed SDK predates iOS 27.1.",
+      "must_include": [
+        "General adaptive changes that compile with the installed SDK",
+        "Preview-only APIs kept out of compiled source",
+        "Clear distinction between implemented, verified, and deferred behavior",
+        "No claim of Device Hub or pose verification"
+      ]
+    },
+    {
+      "id": "scrolling-across-fold",
+      "mode": "audit",
+      "prompt": "Review a continuously scrolling feed whose cells can pass through an active division region while a floating compose button is manually positioned near the fold.",
+      "must_include": [
+        "Continuous scroll content may pass through when the system keeps it usable",
+        "The bounded interactive control needs reserved-region-aware placement",
+        "No blanket rule that every view intersecting the fold is a defect"
+      ]
+    },
+    {
+      "id": "verification-report",
+      "mode": "verification",
+      "prompt": "Verify an existing Duo adaptation when only compact and regular simulators are available, not Xcode Device Hub or physical hardware.",
+      "must_include": [
+        "Tests actually run and their results",
+        "Duo pose cases explicitly marked unverified",
+        "Strongest available resize, state, accessibility, RTL, and older-OS checks",
+        "No unsupported claim that the feature is fully validated"
+      ]
+    }
+  ]
+}

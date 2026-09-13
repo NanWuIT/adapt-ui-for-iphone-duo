@@ -1,0 +1,13 @@
+Adapt UI for iPhone Duo
+Copyright (c) 2026 Adapt UI for iPhone Duo contributors
+
+Adapt UI for iPhone Duo is an independent open-source skill. It is not
+affiliated with, sponsored by, or endorsed by Apple Inc.
+
+Apple, iPhone, iOS, SwiftUI, UIKit, and Xcode are trademarks of Apple Inc.,
+registered in the United States and other countries and regions. References to
+Apple products and technologies describe compatibility and intended use only.
+
+The project may document prerelease Apple SDK behavior. Prerelease APIs and
+tooling can change; verify implementation guidance against the installed SDK
+and current primary Apple documentation before shipping software.

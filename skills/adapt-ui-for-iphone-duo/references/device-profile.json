@@ -1,0 +1,141 @@
+{
+  "schema_version": 2,
+  "profile_purpose": "Documentation, mockups, and test planning only; never use these values as runtime layout breakpoints.",
+  "profile_reviewed_on": "2026-09-11",
+  "official_name": "iPhone Duo",
+  "discovery_aliases": [
+    "iPhone 18 Duo",
+    "foldable iPhone"
+  ],
+  "discovery_alias_policy": {
+    "provenance": "Project-defined trigger metadata",
+    "apple_official": false,
+    "search_frequency_verified": false
+  },
+  "announcement_date": "2026-09-09",
+  "availability_date": "2026-10-23",
+  "hardware": {
+    "open_dimensions_mm": {
+      "width": 164.6,
+      "height": 117.8,
+      "depth": 5.2
+    },
+    "closed_dimensions_mm": {
+      "width": 84.1,
+      "height": 117.8,
+      "depth": 11.3
+    },
+    "weight_g": 254,
+    "chip": "A20 Pro"
+  },
+  "displays": {
+    "inner": {
+      "diagonal_inches": 7.6,
+      "technology": "Super Retina XDR folding OLED",
+      "pixels": {
+        "short_edge": 1878,
+        "long_edge": 2670
+      },
+      "ppi": 430,
+      "max_refresh_hz": 120,
+      "peak_outdoor_nits": 3000,
+      "notes": [
+        "Nano-texture finish",
+        "Under-display camera is hidden when inactive",
+        "Regular horizontal and vertical size classes when fully available"
+      ]
+    },
+    "outer": {
+      "diagonal_inches": 5.4,
+      "technology": "Super Retina XDR OLED",
+      "pixels": {
+        "short_edge": 1398,
+        "long_edge": 2034
+      },
+      "ppi": 460,
+      "max_refresh_hz": 120,
+      "peak_outdoor_nits": 3000,
+      "notes": [
+        "Compact horizontal size class",
+        "Corner camera and Dynamic Island contribute reserved space"
+      ]
+    }
+  },
+  "ui_platform": {
+    "operating_system_generation": "iOS 27",
+    "launch_os": "iOS 27.1",
+    "reserved_region_and_arrangement_api": {
+      "introduced_in": "iOS 27.1",
+      "documentation_status": "Official Apple Tech Talk preview",
+      "compile_verified": false
+    },
+    "simulation_tool": {
+      "name": "Device Hub",
+      "iphone_duo_toolchain": "Xcode 27.1 beta",
+      "availability_as_of_review": "Announced by Apple; coming later in September 2026",
+      "verified_on_installed_toolchain": false
+    },
+    "toolchain_verification": {
+      "as_of": "2026-09-11",
+      "current_public_build": "Xcode 27 RC (27A266a)",
+      "iphone_duo_build_status": "announced_not_available",
+      "api_signatures_compile_verified": false,
+      "required_follow_up": "Compile all iOS 27.1 examples and record the exact Xcode build when available"
+    }
+  },
+  "runtime_policy": {
+    "pixel_values_are_layout_breakpoints": false,
+    "physical_dimensions_are_layout_breakpoints": false,
+    "model_name_detection_allowed": false,
+    "use_size_classes_safe_areas_and_reserved_regions": true
+  },
+  "source_map": {
+    "/official_name": [
+      "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+    ],
+    "/discovery_aliases": [],
+    "/announcement_date": [
+      "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+    ],
+    "/availability_date": [
+      "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+    ],
+    "/hardware": [
+      "https://www.apple.com/iphone-duo/specs/"
+    ],
+    "/displays": [
+      "https://www.apple.com/iphone-duo/specs/",
+      "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo"
+    ],
+    "/ui_platform/launch_os": [
+      "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+    ],
+    "/ui_platform/reserved_region_and_arrangement_api": [
+      "https://developer.apple.com/videos/play/tech-talks/111461/",
+      "https://developer.apple.com/videos/play/tech-talks/111463/"
+    ],
+    "/ui_platform/simulation_tool": [
+      "https://developer.apple.com/iphone-duo/",
+      "https://developer.apple.com/videos/play/tech-talks/111461/"
+    ],
+    "/ui_platform/toolchain_verification": [
+      "https://developer.apple.com/iphone-duo/",
+      "https://developer.apple.com/news/releases/?id=09092026h"
+    ],
+    "/runtime_policy": [
+      "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo",
+      "https://developer.apple.com/videos/play/tech-talks/111461/",
+      "https://developer.apple.com/videos/play/tech-talks/111464/"
+    ]
+  },
+  "sources": [
+    "https://www.apple.com/iphone-duo/specs/",
+    "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+    "https://developer.apple.com/iphone-duo/",
+    "https://developer.apple.com/news/releases/?id=09092026h",
+    "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo",
+    "https://developer.apple.com/videos/play/tech-talks/111461/",
+    "https://developer.apple.com/videos/play/tech-talks/111463/",
+    "https://developer.apple.com/videos/play/tech-talks/111464/"
+  ]
+}

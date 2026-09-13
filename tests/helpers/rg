@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+printf '%s\n' 'synthetic ripgrep failure' >&2
+exit 2

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adapt UI for iPhone Duo"
+  short_description: "Adapt SwiftUI and UIKit layouts for iPhone Duo"
+  default_prompt: "Use $adapt-ui-for-iphone-duo to audit or adapt this native SwiftUI or UIKit interface for iPhone Duo while preserving existing behavior."

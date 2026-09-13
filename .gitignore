@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcresult
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+__pycache__/
+*.pyc
+*.tmp
+
+# Keep generated-tree lookalikes that verify scanner exclusions.
+!tests/fixtures/exclusions/Nested/Build/DerivedData/
+!tests/fixtures/exclusions/Nested/Build/DerivedData/Generated.m
+!tests/fixtures/exclusions/Nested/Package/.build/
+!tests/fixtures/exclusions/Nested/Package/.build/Generated.swift
